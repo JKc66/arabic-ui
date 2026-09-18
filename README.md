@@ -95,16 +95,28 @@ arabic-ui/
 
 ## 🚀 Installation & Usage
 
-### As an AI Agent Skill (Antigravity, Claude Code, Cursor)
+### Quick Install (Recommended)
 
-Clone this repository directly into your user or workspace agent skills directory:
+To add this skill to your agent environment (Antigravity, Claude Code, Cursor, Codex):
 
 ```bash
-# Install globally for all projects:
+npx skills add jkc66/arabic-ui
+```
+
+or with `bunx`:
+
+```bash
+bunx skills add jkc66/arabic-ui
+```
+
+### Manual / Git Clone
+
+```bash
+# Global installation:
 git clone https://github.com/JKc66/arabic-ui.git ~/.agents/skills/arabic-ui
 
-# Or clone into a specific project:
-git clone https://github.com/JKc66/arabic-ui.git .planning/skills/arabic-ui
+# Project-level installation:
+git clone https://github.com/JKc66/arabic-ui.git .agents/skills/arabic-ui
 ```
 
 Once installed, AI agents will automatically trigger this skill whenever you ask to:
