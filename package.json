@@ -1,0 +1,28 @@
+{
+  "name": "arabic-ui",
+  "version": "1.0.0",
+  "description": "Natural, high-fidelity Arabic UI microcopy and RTL engineering rules for AI agents and digital products.",
+  "keywords": [
+    "arabic",
+    "ui",
+    "ux",
+    "localization",
+    "i18n",
+    "rtl",
+    "agent-skill",
+    "pluralization",
+    "cldr",
+    "antigravity",
+    "claude-code"
+  ],
+  "author": "JKc66",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JKc66/arabic-ui.git"
+  },
+  "main": "scripts/pluralize.ts",
+  "scripts": {
+    "test": "bun test"
+  }
+}
