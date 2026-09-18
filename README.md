@@ -12,6 +12,40 @@ Most Arabic digital interfaces suffer from **العرنجية** (clumsy English 
 
 ---
 
+## 🚀 Installation & Usage
+
+### Quick Install (Recommended)
+
+To add this skill to your agent environment (Antigravity, Claude Code, Cursor, Codex):
+
+```bash
+npx skills add jkc66/arabic-ui
+```
+
+or with `bunx`:
+
+```bash
+bunx skills add jkc66/arabic-ui
+```
+
+### Manual / Git Clone
+
+```bash
+# Global installation:
+git clone https://github.com/JKc66/arabic-ui.git ~/.agents/skills/arabic-ui
+
+# Project-level installation:
+git clone https://github.com/JKc66/arabic-ui.git .agents/skills/arabic-ui
+```
+
+Once installed, AI agents will automatically trigger this skill whenever you ask to:
+- Translate, review, or write Arabic UI microcopy
+- Localize web applications, buttons, alerts, or dashboards
+- Implement RTL layouts, logical CSS, or bidirectional isolation
+- Handle Arabic plural counters and number formatting
+
+---
+
 ## ⚡ Key Pillars
 
 ### 1. Anti-العرنجية Guardrails (محاربة الرطانة والترجمة الحرفية)
@@ -90,40 +124,6 @@ arabic-ui/
 └── scripts/
     └── pluralize.ts                  # Production-ready CLDR Arabic pluralization engine
 ```
-
----
-
-## 🚀 Installation & Usage
-
-### Quick Install (Recommended)
-
-To add this skill to your agent environment (Antigravity, Claude Code, Cursor, Codex):
-
-```bash
-npx skills add jkc66/arabic-ui
-```
-
-or with `bunx`:
-
-```bash
-bunx skills add jkc66/arabic-ui
-```
-
-### Manual / Git Clone
-
-```bash
-# Global installation:
-git clone https://github.com/JKc66/arabic-ui.git ~/.agents/skills/arabic-ui
-
-# Project-level installation:
-git clone https://github.com/JKc66/arabic-ui.git .agents/skills/arabic-ui
-```
-
-Once installed, AI agents will automatically trigger this skill whenever you ask to:
-- Translate, review, or write Arabic UI microcopy
-- Localize web applications, buttons, alerts, or dashboards
-- Implement RTL layouts, logical CSS, or bidirectional isolation
-- Handle Arabic plural counters and number formatting
 
 ---
 
