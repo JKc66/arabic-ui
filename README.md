@@ -4,11 +4,13 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178c6.svg)](scripts/pluralize.ts)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-Compatible-8a2be2.svg)](SKILL.md)
 
-**Natural, high-fidelity Arabic UI microcopy and RTL engineering for AI agents and modern web applications.**
+**Natural, high-fidelity Arabic writing, editorial prose, UX microcopy, and RTL engineering for AI agents, modern web applications, and digital products.**
 
-Most Arabic digital interfaces suffer from **العرنجية** (clumsy English syntactic calques like *"تم الحفظ بنجاح"*, *"الخاص بك"*, *"قم بالضغط"*), broken pluralization (ignoring the 6 grammatical categories or the dual *المثنى*), and bidirectional layout defects.
+Most Arabic digital text and translated content suffers from **العرنجية** (clumsy English syntactic calques like *"تم الحفظ بنجاح"*, *"الخاص بك"*, *"من الجدير بالذكر أن"*, *"يلعب دورًا هامًا"*), broken pluralization (ignoring the 6 grammatical categories or the dual *المثنى*), and bidirectional layout defects.
 
-`arabic-ui` is an **Agent Skill** and engineering reference designed to instruct AI coding assistants (Claude Code, Antigravity, Cursor, Copilot) and product teams to author concise, native Arabic UI copy and clean RTL code.
+`arabic-ui` is a dual-purpose **Agent Skill** and engineering reference designed to instruct AI assistants (Claude Code, Antigravity, Cursor, Copilot) and writers to author both:
+1. **Crisp UI/UX microcopy & RTL engineering** (buttons, alerts, form inputs, dynamic counters, CSS insets).
+2. **High-density, authentic Arabic writing & articles** (blog posts, essays, documentation, technical reports, marketing copy).
 
 ---
 
@@ -39,7 +41,8 @@ git clone https://github.com/JKc66/arabic-ui.git .agents/skills/arabic-ui
 ```
 
 Once installed, AI agents will automatically trigger this skill whenever you ask to:
-- Translate, review, or write Arabic UI microcopy
+- Write, draft, or edit Arabic articles, essays, blog posts, and documentation
+- Translate, review, or polish Arabic UI microcopy and marketing copy
 - Localize web applications, buttons, alerts, or dashboards
 - Implement RTL layouts, logical CSS, or bidirectional isolation
 - Handle Arabic plural counters and number formatting
@@ -60,7 +63,7 @@ Eliminates translationese in favor of direct, punchy Arabic:
 | Failed to connect | فشل في الاتصال بالخادم | **تعذّر الاتصال بالخادم** |
 | 2 hours ago | منذ 2 ساعات | **قبل ساعتين** |
 
-*(Explore the full 40+ term lookup table in [`references/aranjiya-glossary.md`](references/aranjiya-glossary.md))*
+*(Explore the full 60+ term lookup table and syntactic rules from Ahmad Al-Ghamdi's book «العرنجية» in [`references/aranjiya-glossary.md`](references/aranjiya-glossary.md))*
 
 ---
 
@@ -115,11 +118,12 @@ formatArabicPlural(100, COMMON_ARABIC_NOUNS.app); // "100 تطبيق"
 
 ```
 arabic-ui/
-├── SKILL.md                          # AI Agent skill definition & execution instructions
+├── SKILL.md                          # AI Agent skill definition & dual-mode instructions
 ├── README.md                         # Documentation & guidelines
 ├── LICENSE                           # MIT License
 ├── references/
-│   ├── aranjiya-glossary.md          # 40+ term translationese lookup table
+│   ├── aranjiya-glossary.md          # 60+ term lookup table & syntactic rules (Ahmad Al-Ghamdi)
+│   ├── editorial-and-articles.md     # Long-form writing, essays & article guidelines
 │   └── rtl-engineering.md            # CSS logical properties & layout specs
 └── scripts/
     └── pluralize.ts                  # Production-ready CLDR Arabic pluralization engine
