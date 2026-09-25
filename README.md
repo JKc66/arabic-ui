@@ -63,7 +63,7 @@ Eliminates translationese in favor of direct, punchy Arabic:
 | Failed to connect | فشل في الاتصال بالخادم | **تعذّر الاتصال بالخادم** |
 | 2 hours ago | منذ 2 ساعات | **قبل ساعتين** |
 
-*(Explore the full 60+ term lookup table and syntactic rules from Ahmad Al-Ghamdi's book «العرنجية» in [`references/aranjiya-glossary.md`](references/aranjiya-glossary.md))*
+*(Explore the full 85+ term lookup table and syntactic rules from Ahmad Al-Ghamdi's book «العرنجية» in [`references/aranjiya-glossary.md`](references/aranjiya-glossary.md))*
 
 ---
 

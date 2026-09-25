@@ -80,10 +80,16 @@ Every Arabic UI string, translation, or long-form passage must satisfy this fals
 - [ ] **Durations & Time**: Omits intrusive prepositions before adverbs of time (`صالح 3 أيام`, `في 5 دقائق`), never (`لمدة 3 أيام`, `خلال 5 دقائق`).
 - [ ] **Instrumental Precision**: Uses instrumental Baa `بـ` or direct context (`بالضغط هنا`, `في الإعدادات`), eliminating calqued mediators (`من خلال`, `عبر`).
 - [ ] **Direct Superlatives**: Uses authentic `أَفْعَل` forms (`الأسرع`, `الأكفأ`, `الأضمن`), never periphrastic calques (`الأكثر سرعة`, `الأكثر كفاءة`).
+- [ ] **Superlative Agreement & Genitives**: Prefers genitive construct for absolute superlatives (`أطول الليالي`, `أجمل الفتيات`) or enforces strict grammatical agreement if adjectival (`الدولتان العُظمَيان`), never frozen masculine singulars (`الدولتان الأعظم`).
+- [ ] **Causal Adjectives (النعت السببي)**: Uses agile causal adjectives (`مشاريع باهظة تكاليفها`, `القرية الظالم أهلها`) instead of clunky relative clauses (`المشاريع التي تكاليفها مرتفعة`).
+- [ ] **Indefiniteness & Partitivity**: Relies on direct Tanween for indefinite and non-countable nouns (`استغرق وقتاً`, `أعجب ناسٌ`), eliminating calqued mediators (`بعض الوقت`, `بعض الناس`, `أحد المطورين`, `أي مشكلة`).
 - [ ] **Coordinated Annexation**: Annexes the first noun to the genitive and suffixes a pronoun to the second (`عرض البيانات وتعديلها`), never double construct (`عرض وتعديل البيانات`).
+- [ ] **Negative Disjunction**: Coordinates negative clauses with `ولا` (`لا تعديل ولا حذف`, `لن نترك رجلاً ولا طفلاً`), never calqued `أو`.
+- [ ] **Mutual Reciprocal Verbs**: Uses bare reciprocal forms (`تفاعل` like `تحالفوا`, `تعاونوا`), strictly omitting redundant particles (`مع بعضهم البعض`).
 - [ ] **Prohibitions vs. Optionality**: Warnings and restrictions never use `لا يجب` (which indicates optionality); use direct jussive negative imperative (`لا تُغلق الصفحة`, `يحظر الحذف`).
 - [ ] **Existential States**: Omits pseudo-existential `هناك` for states and events (`حدث خطأ`, `3 تحديثات معلقة`), never (`هناك خطأ`).
 - [ ] **Roles & Destinations**: Avoids intrusive `كـ` (simile) when designating functions or destinations (`حفظ في المسودات`, `دخول المشرف`), never (`حفظ كمسودة`, `الدخول كمسؤول`).
+- [ ] **Hidden Foreignism Trap**: Avoids substituting calques with bureaucratic pseudo-corrections (never `بوصفه / بصفته مسؤولاً` for `as a`; use `دخول المشرف` directly).
 - [ ] **Direct Verbs vs. Copula**: Uses direct verbs instead of copula `كن + صفة` (`احذر`, `تأكد`), never (`كن حذرًا`, `كن متأكدًا`).
 - [ ] **Errors & Incapacity**: Uses affirmative incapacity phrasing (`تعذّر الاتصال`, `لم نتمكن من الحفظ`), never failure calques (`فشل في الاتصال`).
 - [ ] **Counting Duals (المثنى)**: Uses dual noun forms (`ملفان` / `ملفين`), never numeral prefixing (`2 ملف`).
@@ -91,7 +97,7 @@ Every Arabic UI string, translation, or long-form passage must satisfy this fals
 - [ ] **Conjunction Waw (`و`)**: Attaches directly to the succeeding word with zero whitespace (`الملفات والمجلدات`).
 - [ ] **Arabic Typography**: Uses Arabic glyphs (`،`, `؛`, `؟`) with no leading space.
 
-*(For complete 60+ term lookup mappings and syntactic breakdowns, inspect [references/aranjiya-glossary.md](references/aranjiya-glossary.md))*
+*(For complete 85+ term lookup mappings and syntactic breakdowns, inspect [references/aranjiya-glossary.md](references/aranjiya-glossary.md))*
 
 ### 3.2 For UI & Frontend Specifically
 - [ ] **Buttons & Action Triggers**: Uses **المصدر (Verbal Noun)** (`حفظ`, `تعديل`, `تسجيل الدخول`), never imperative verbs (`احفظ`).
